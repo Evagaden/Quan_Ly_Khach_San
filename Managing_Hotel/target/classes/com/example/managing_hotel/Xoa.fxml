@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.managing_hotel.XoaController">
+   <children>
+      <AnchorPane layoutX="105.0" layoutY="100.0" prefHeight="200.0" prefWidth="390.0">
+         <children>
+            <Button layoutX="230.0" layoutY="130.0" mnemonicParsing="false" onAction="#xacNhan" prefHeight="30.0" prefWidth="110.0" text="Xac Nhan">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="35.0" layoutY="40.0" prefHeight="30.0" prefWidth="100.0" text="Ten Phong ">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfName" layoutX="35.0" layoutY="80.0" prefHeight="30.0" prefWidth="100.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
